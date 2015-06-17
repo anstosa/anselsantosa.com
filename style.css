@@ -1,0 +1,120 @@
+* { box-sizing: border-box; }
+
+html {
+    background: #e5e5e5;
+    color: #222;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 40px;
+    width: 100%;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    float: left;
+    height: 500px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: calc(50% - 20px);
+}
+
+section ~ section {
+    border-color: #d8d8d8;
+    height: 230px;
+    margin-left: 40px;
+}
+
+    h1,
+    h2 {
+        font-weight: 500;
+        margin: 0 0 11px;
+    }
+
+    figure {
+        background-image: url(/AnselSantosa.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        bottom: 4px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        height: 330px;
+        left: 4px;
+        margin: 0;
+        position: absolute;
+        width: calc(100% - 8px);
+    }
+
+    ul {
+        margin: 0 -16px;
+        padding-left: 0;
+    }
+
+        li {
+            list-style: none;
+            position: relative;
+        }
+
+            a {
+                color: #222;
+                display: block;
+                line-height: 30px;
+                padding-left: 50px;
+                text-decoration: none;
+                -webkit-transition: background .15s;
+                   -moz-transition: background .15s;
+                    -ms-transition: background .15s;
+                     -o-transition: background .15s;
+                        transition: background .15s;
+            }
+
+                i.fa-li {
+                    color: #999;
+                    font-size: 14px;
+                    left: 12px;
+                    top: 8px;
+                    -webkit-transition: color .15s;
+                       -moz-transition: color .15s;
+                        -ms-transition: color .15s;
+                         -o-transition: color .15s;
+                            transition: color .15s;
+                }
+
+            a:hover {
+                background: rgba(0, 0, 0, .07);
+                color: black;
+            }
+
+            a:hover .fa-globe           { color: #658092; }
+            a:hover .fa-desktop         { color: #658092; }
+            a:hover .fa-graduation-cap  { color: black; }
+            a:hover .fa-heart           { color: #D14836; }
+            a:hover .fa-gamepad         { color: #B3C833; }
+
+            a:hover .fa-twitter         { color: #55ACEE; }
+            a:hover .fa-key             { color: #D14836; }
+            a:hover .fa-facebook-square { color: #4E69A2; }
+            a:hover .fa-github-alt      { color: #658092; }
+            a:hover .fa-envelope        { color: #658092; }
+
+@media only screen and (max-width: 760px) {
+    body {
+        padding: 5px 0 10px;
+    }
+
+    section,
+    section ~ section {
+        margin: 5px 10px;
+        width: calc(100% - 20px);
+    }
+}
