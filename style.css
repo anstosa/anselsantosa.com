@@ -1,7 +1,8 @@
 * { box-sizing: border-box; }
 
 html {
-    background: #e5e5e5;
+    background-image: url(/background.png);
+    background-repeat: repeat;
     color: #222;
 }
 
@@ -16,9 +17,9 @@ body {
 
 section {
     background-color: white;
-    border: 1px solid #c2c2c2;
+    border: 1px solid #c8c8c8;
     border-bottom-width: 2px;
-    border-radius: 3px;
+    border-radius: 2px;
     float: left;
     height: 500px;
     margin-bottom: 40px;
@@ -36,7 +37,8 @@ section ~ section {
 
     h1,
     h2 {
-        font-weight: 500;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: normal;
         margin: 0 0 11px;
     }
 
@@ -45,14 +47,14 @@ section ~ section {
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center center;
-        bottom: 4px;
+        bottom: 1px;
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
         height: 330px;
-        left: 4px;
+        left: 1px;
         margin: 0;
         position: absolute;
-        width: calc(100% - 8px);
+        width: calc(100% - 2px);
     }
 
     ul {
@@ -95,17 +97,17 @@ section ~ section {
                 color: black;
             }
 
-            a:hover .fa-globe           { color: #658092; }
-            a:hover .fa-desktop         { color: #658092; }
-            a:hover .fa-graduation-cap  { color: black; }
+            a:hover .fa-male            { color: #1565C0; }
+            a:hover .fa-code-fork       { color: #EF6C00; }
+            a:hover .fa-graduation-cap  { color: #424242; }
             a:hover .fa-heart           { color: #D14836; }
             a:hover .fa-gamepad         { color: #B3C833; }
 
+            a:hover .fa-github-alt      { color: #D84315; }
+            a:hover .fa-key             { color: #F9A825; }
+            a:hover .fa-envelope        { color: #424242; }
             a:hover .fa-twitter         { color: #55ACEE; }
-            a:hover .fa-key             { color: #D14836; }
             a:hover .fa-facebook-square { color: #4E69A2; }
-            a:hover .fa-github-alt      { color: #658092; }
-            a:hover .fa-envelope        { color: #658092; }
 
 @media only screen and (max-width: 760px) {
     body {
