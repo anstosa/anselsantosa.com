@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 html {
-    background-image: url(/background.png);
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAAAAACMIRMSAAAAmElEQVR4AX2RwQ4EIQhD/f9ftYW7p6U0buYiEmLG5fGUXRlELda2eyEJ6mDFea36Kf8RZ1egUjFTOFTtn4RSFN6Uu7Pq0bu7iFx8U/ZEh3yyyEk1fFIy+CXiXB+Ve3TdGVxuN6XTeRo0Y6d38aMLH8ZvtBXjDK/BtayAreM0dBdXZqcsdq+cJv/9f/3l286UK68zZVKX6V0/HECKK51+49AAAAAASUVORK5CYII=');
     background-repeat: repeat;
     color: #222;
 }
@@ -104,7 +104,7 @@ section ~ section {
             a:hover .fa-gamepad         { color: #B3C833; }
 
             a:hover .fa-github-alt      { color: #D84315; }
-            a:hover .fa-key             { color: #F9A825; }
+            a:hover .fa-black-tie       { color: #F9A825; }
             a:hover .fa-envelope        { color: #424242; }
             a:hover .fa-twitter         { color: #55ACEE; }
             a:hover .fa-facebook-square { color: #4E69A2; }
